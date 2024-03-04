@@ -13,7 +13,7 @@ function CatCareSection() {
 
   return (
     <div className="w-full">
-      <section className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <section className="grid min-h-96 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
         <div className="flex justify-around items-center ">
           <img
             className="max-h-72 md:max-h-80 rounded-2xl"

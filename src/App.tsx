@@ -1,6 +1,6 @@
 import CatCareSection from "./components/CatCareSection";
 import Hero from "./components/Hero";
-import Hero2 from "./components/Hero2";
+import Hero2 from "./components/CatCareService";
 import Navbar from "./components/Navbar";
 
 function App() {
