@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
     <header className="w-full">
-      <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-12 min-h-20">
+      <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-12 min-h-20">
         <div>
           <p className="font-bold text-xl">Cat Care Clinic</p>
         </div>
