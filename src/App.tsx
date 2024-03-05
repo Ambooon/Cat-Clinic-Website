@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import { Routes, Route } from "react-router";
 import About from "./components/About";
 import Service from "./components/Service";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           />
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
+          <Route path="/blog" element={<Blog />} />
           <Route />
         </Routes>
       </div>

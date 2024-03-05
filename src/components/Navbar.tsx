@@ -14,25 +14,19 @@ function Navbar() {
         <nav className="hidden md:block">
           <ul className="flex gap-8">
             <li>
-              <NavLink to={"/"} className="hover:font-semibold">
-                Home
-              </NavLink>
+              <NavLink to={"/"}>Home</NavLink>
             </li>
             <li>
-              <NavLink to={"/about"} className="hover:font-semibold">
-                About
-              </NavLink>
+              <NavLink to={"/about"}>About</NavLink>
             </li>
             <li>
-              <NavLink to={"/service"} className="hover:font-semibold">
-                Service
-              </NavLink>
+              <NavLink to={"/service"}>Service</NavLink>
             </li>
             <li>
-              <button className="hover:font-semibold">Shop</button>
+              <button>Shop</button>
             </li>
             <li>
-              <button className="hover:font-semibold">Blog</button>
+              <NavLink to={"/blog"}>Blog</NavLink>
             </li>
           </ul>
         </nav>

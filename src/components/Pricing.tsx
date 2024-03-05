@@ -1,4 +1,5 @@
 import { FaCheckSquare } from "react-icons/fa";
+import { IoClose } from "react-icons/io5";
 
 export default function Pricing() {
   return (
@@ -29,15 +30,15 @@ export default function Pricing() {
               <li className="flex items-center">
                 <FaCheckSquare className="mr-2" /> Custom Meals
               </li>
-              <li className="flex items-center">
-                <FaCheckSquare className="mr-2" /> Spa and Grooming
+              <li className="flex items-center text-slate-500">
+                <IoClose className="mr-2" /> Spa and Grooming
               </li>
-              <li className="flex items-center">
-                <FaCheckSquare className="mr-2" />
+              <li className="flex items-center text-slate-500">
+                <IoClose className="mr-2" />
                 Conditioning Treatment
               </li>
-              <li className="flex items-center">
-                <FaCheckSquare className="mr-2" /> Handscissor Finish
+              <li className="flex items-center text-slate-500">
+                <IoClose className="mr-2" /> Handscissor Finish
               </li>
             </ul>
             <button className="text-center font-semibold bg-orange-400 text-white w-full py-2 rounded-full hover:bg-orange-500">
@@ -63,12 +64,12 @@ export default function Pricing() {
               <li className="flex items-center">
                 <FaCheckSquare className="mr-2" /> Spa and Grooming
               </li>
-              <li className="flex items-center">
-                <FaCheckSquare className="mr-2" />
+              <li className="flex items-center text-orange-200">
+                <IoClose className="mr-2" />
                 Conditioning Treatment
               </li>
-              <li className="flex items-center">
-                <FaCheckSquare className="mr-2" /> Handscissor Finish
+              <li className="flex items-center text-orange-200">
+                <IoClose className="mr-2" /> Handscissor Finish
               </li>
             </ul>
             <button className="text-center font-semibold bg-white text-orange-400 w-full py-2 rounded-full hover:bg-slate-200">
