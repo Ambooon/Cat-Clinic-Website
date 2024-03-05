@@ -2,11 +2,11 @@ import { FaCheckSquare } from "react-icons/fa";
 
 function Hero() {
   return (
-    <div className="h-screen w-full -mt-20 flex items-center">
+    <div className="my-12 md:h-screen w-full md:-mt-20 flex items-center">
       <section className="text-center md:text-start grid md:grid-cols-2 max-w-6xl mx-auto">
         <div className="flex justify-between items-center">
           <div className="p-4">
-            <h1 className="text-6xl font-bold mb-6">
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6">
               Your Trusted Cat Haven for Health
             </h1>
             <p className="mb-4">
