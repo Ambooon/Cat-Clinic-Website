@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { IoClose, IoMenu } from "react-icons/io5";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const [isNav, setIsNav] = useState(false);
@@ -13,10 +14,10 @@ function Navbar() {
         <nav className="hidden md:block">
           <ul className="flex gap-8">
             <li>
-              <button className="hover:font-semibold">Home</button>
+              <NavLink to={"/"} className="hover:font-semibold">Home</NavLink>
             </li>
             <li>
-              <button className="hover:font-semibold">About</button>
+              <NavLink to={"/about"} className="hover:font-semibold">About</NavLink>
             </li>
             <li>
               <button className="hover:font-semibold">Service</button>

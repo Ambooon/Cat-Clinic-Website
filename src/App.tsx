@@ -5,18 +5,32 @@ import Pricing from "./components/Pricing";
 import Family from "./components/Family";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
+import { Routes, Route } from "react-router";
+import About from "./components/About";
 
 function App() {
   return (
     <>
+      <Navbar />
       <div className="container mx-auto">
-        <Navbar />
-        <Hero />
-        <CatCareSection />
-        <Pricing />
-        <Family />
-        <Newsletter />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Hero />
+                <CatCareSection />
+                <Pricing />
+                <Family />
+                <Newsletter />
+              </>
+            }
+          />
+          <Route path="/about" element={<About />} />
+          <Route />
+        </Routes>
       </div>
+
       <Footer />
     </>
   );
