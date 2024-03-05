@@ -9,18 +9,24 @@ function Navbar() {
     <header className="w-full">
       <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-12 min-h-20">
         <div>
-          <p className="font-bold text-xl">Cat Care Clinic</p>
+          <p className="font-bold text-xl">Gentle Paws Cat Care</p>
         </div>
         <nav className="hidden md:block">
           <ul className="flex gap-8">
             <li>
-              <NavLink to={"/"} className="hover:font-semibold">Home</NavLink>
+              <NavLink to={"/"} className="hover:font-semibold">
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/about"} className="hover:font-semibold">About</NavLink>
+              <NavLink to={"/about"} className="hover:font-semibold">
+                About
+              </NavLink>
             </li>
             <li>
-              <button className="hover:font-semibold">Service</button>
+              <NavLink to={"/service"} className="hover:font-semibold">
+                Service
+              </NavLink>
             </li>
             <li>
               <button className="hover:font-semibold">Shop</button>

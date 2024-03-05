@@ -13,7 +13,7 @@ export default function Newsletter() {
           </p>
           <form>
             <input
-              className="px-2 py-1 mr-4"
+              className="px-2 py-1 mr-4 border border-slate-950 rounded-md"
               type="email"
               placeholder="Enter your email here"
             />

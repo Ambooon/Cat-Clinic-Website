@@ -7,12 +7,13 @@ import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router";
 import About from "./components/About";
+import Service from "./components/Service";
 
 function App() {
   return (
     <>
-      <Navbar />
       <div className="container mx-auto">
+        <Navbar />
         <Routes>
           <Route
             path="/"
@@ -27,6 +28,7 @@ function App() {
             }
           />
           <Route path="/about" element={<About />} />
+          <Route path="/service" element={<Service />} />
           <Route />
         </Routes>
       </div>
