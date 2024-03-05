@@ -38,7 +38,7 @@ function Hero() {
         <div className="hidden md:flex items-center justify-center">
           <img
             className="-z-10"
-            src="https://img.freepik.com/free-psd/beautiful-cat-portrait-isolated_23-2150186058.jpg?w=360&t=st=1709555633~exp=1709556233~hmac=3717a5bb64388a59c18eb9d1f640082a69a1236e262fcfdb317d0c596efbb73b"
+            src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-cat_23-2149100172.jpg?w=740&t=st=1709609061~exp=1709609661~hmac=c3ec2a58d6d11041534cd8da4e1561742869f4adf3b87ab6bf66dca73d7ccd8b"
             alt="Cat"
           />
         </div>

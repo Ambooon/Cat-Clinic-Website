@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Hero2 from "./components/CatCareService";
 import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
+import Family from "./components/Family";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <CatCareSection />
       <Hero2 />
       <Pricing />
+      <Family />
     </>
   );
 }

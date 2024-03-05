@@ -5,7 +5,6 @@ function CatCareSection() {
   const [openKey, setOpenKey] = useState<number | null>(null);
 
   function handleToggle(key: number) {
-    console.log(key);
     setOpenKey((prevState) => {
       return key !== prevState ? key : null;
     });
