@@ -23,7 +23,7 @@ function Navbar() {
               <NavLink to={"/service"}>Service</NavLink>
             </li>
             <li>
-              <button>Shop</button>
+              <NavLink to={"/store"}>Store</NavLink>
             </li>
             <li>
               <NavLink to={"/blog"}>Blog</NavLink>

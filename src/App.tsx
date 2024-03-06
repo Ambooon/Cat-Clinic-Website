@@ -9,6 +9,7 @@ import { Routes, Route } from "react-router";
 import About from "./components/About";
 import Service from "./components/Service";
 import Blog from "./components/Blog";
+import Store from "./components/Store";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/store" element={<Store />} />
           <Route />
         </Routes>
       </div>
