@@ -31,7 +31,7 @@ export default function About() {
               <MdHealthAndSafety size={60} className="text-myBlue-dark" />
             </div>
             <div>
-              <h2 className="text-2xl font-semibold">
+              <h2 className="text-xl font-semibold">
                 Expertise in Feline Care
               </h2>
               <p>
@@ -45,7 +45,7 @@ export default function About() {
               <FaCity size={60} className="text-myBlue-dark" />
             </div>
             <div>
-              <h2 className="text-2xl font-semibold">
+              <h2 className="text-xl font-semibold">
                 State-of-the-Art Facilities
               </h2>
               <p>
@@ -59,7 +59,7 @@ export default function About() {
               <FaPeopleGroup size={60} className="text-myBlue-dark" />
             </div>
             <div>
-              <h2 className="text-2xl font-semibold">
+              <h2 className="text-xl font-semibold">
                 Compassionate and Skilled Staff
               </h2>
               <p>

@@ -41,7 +41,7 @@ export default function Pricing() {
                 <IoClose className="mr-2" /> Handscissor Finish
               </li>
             </ul>
-            <button className="text-center font-semibold bg-myBlue-light text-white w-full py-2 rounded-full hover:bg-myBlue-dark">
+            <button className="text-center font-semibold bg-myBlue-light text-white w-full py-2 rounded-full hover:bg-myBlue-dark ease-in-out duration-100">
               Get The Basic
             </button>
           </div>
@@ -72,7 +72,7 @@ export default function Pricing() {
                 <IoClose className="mr-2" /> Handscissor Finish
               </li>
             </ul>
-            <button className="text-center font-semibold bg-white text-myBlue-light w-full py-2 rounded-full hover:bg-slate-200 hover:text-myBlue-dark">
+            <button className="text-center font-semibold bg-white text-myBlue-light w-full py-2 rounded-full hover:bg-myBlue-dark hover:text-white ease-in-out duration-100">
               Get The Premium
             </button>
           </div>
@@ -103,7 +103,7 @@ export default function Pricing() {
                 <FaCheckSquare className="mr-2" /> Handscissor Finish
               </li>
             </ul>
-            <button className="text-center font-semibold bg-myBlue-light text-white w-full py-2 rounded-full hover:bg-myBlue-dark">
+            <button className="text-center font-semibold bg-myBlue-light text-white w-full py-2 rounded-full hover:bg-myBlue-dark ease-in-out duration-100">
               Get The Pro
             </button>
           </div>

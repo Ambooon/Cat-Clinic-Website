@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <header className="w-full">
-      <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-12 min-h-20">
+      <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-8 min-h-20">
         <div>
           <img className="h-12" src={Logo} alt={Logo} />
         </div>
