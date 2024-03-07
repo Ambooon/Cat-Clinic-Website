@@ -14,7 +14,7 @@ import Store from "./components/Store";
 function App() {
   return (
     <>
-      <div className="container mx-auto">
+      <div className="container mx-auto font-lato">
         <Navbar />
         <Routes>
           <Route

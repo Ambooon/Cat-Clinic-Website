@@ -6,7 +6,7 @@ export default function Newsletter() {
           <h2 className="text-4xl font-bold mb-2">
             Subscribe to Our Newsletter
           </h2>
-          <p className="font-thin mb-6">
+          <p className="font-light mb-6">
             Everyone wants their cat to be happy and healthy and to look and
             feel their best. Now the same sanitary and functional benefits of
             today's advanced beauty and cat care.
@@ -19,7 +19,7 @@ export default function Newsletter() {
             />
             <button
               type="button"
-              className="bg-orange-400 py-2 px-4 rounded-full text-white hover:bg-orange-500"
+              className="bg-myBlue-light py-2 px-4 rounded-full text-white hover:bg-myBlue-dark"
             >
               Subscribe
             </button>

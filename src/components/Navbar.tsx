@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { IoClose, IoMenu } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
+import Logo from "../assets/Gentle Paws Cat Care Logo.png";
 
 function Navbar() {
   const [isNav, setIsNav] = useState(false);
@@ -9,7 +10,7 @@ function Navbar() {
     <header className="w-full">
       <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-12 min-h-20">
         <div>
-          <p className="font-bold text-xl">Gentle Paws Cat Care</p>
+          <img className="h-12" src={Logo} alt={Logo} />
         </div>
         <nav className="hidden md:block">
           <ul className="flex gap-8">
@@ -57,7 +58,7 @@ function Navbar() {
         </nav>
         <div className="hidden md:flex items-center gap-6">
           <button className="hover:font-semibold">Sign In</button>
-          <button className="py-2 px-4 rounded-full bg-orange-400 hover:bg-orange-500 text-white">
+          <button className="py-2 px-4 rounded-full bg-myBlue-light hover:bg-myBlue-dark text-white">
             Sign Up
           </button>
         </div>

@@ -4,7 +4,7 @@ export default function Family() {
       <section className="max-w-4xl mx-auto">
         <div className="text-center max-w-xl mx-auto mb-12">
           <h2 className="text-4xl font-bold mb-2">Meet Our Family</h2>
-          <p className="font-thin">
+          <p className="font-light">
             Everyone wants their cat to be happy and healthy and to look and
             feel their best. Now the same sanitary and functional benefits of
             today's advanced beauty and cat care.

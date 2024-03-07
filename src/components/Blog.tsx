@@ -2,14 +2,14 @@ export default function Blog() {
   return (
     <section className="w-full mb-12">
       <div className="max-w-4xl mx-auto p-16">
-        <h1 className="text-5xl sm:text-6xl font-semibold text-center">
+        <h1 className="text-5xl sm:text-6xl font-semibold text-center font-playfair">
           Happy Cats 101: Tips and Tales for Healthy Kitties
         </h1>
       </div>
       <div className="max-w-5xl mx-auto">
         <h2 className="text-xl font-semibold mb-2">Top Reads</h2>
         <hr />
-        <div className="grid sm:grid-cols-3 gap-4 py-6 items-center justify-center">
+        <div className="grid sm:grid-cols-3 gap-4 py-6 justify-center">
           <TopRead
             title="The Purr-fect Diet: Feeding Your Cat for Optimal Health"
             imageUrl="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -65,7 +65,7 @@ function TopRead(props: { imageUrl: string; title: string }) {
   return (
     <div className="hover:cursor-pointer p-4 hover:scale-105 ease-in-out duration-200 max-w-sm">
       <img className="mb-2" src={props.imageUrl} alt="Blog Picture" />
-      <p className="font-medium">{props.title}</p>
+      <p className="font-semibold">{props.title}</p>
     </div>
   );
 }
@@ -83,9 +83,9 @@ function LatestBlog(props: {
       </div>
 
       <div className="col-span-3">
-        <p className="font-medium mb-1">{props.title}</p>
-        <p className="font-thin text-sm mb-2">{props.content}</p>
-        <p className="font-light text-xs">{props.date}</p>
+        <p className="font-semibold mb-1">{props.title}</p>
+        <p className="font-light text-sm mb-2">{props.content}</p>
+        <p className="font-light text-slate-700 text-xs">{props.date}</p>
       </div>
     </article>
   );

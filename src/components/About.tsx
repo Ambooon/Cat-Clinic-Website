@@ -6,7 +6,9 @@ export default function About() {
   return (
     <section className="max-w-6xl mx-auto p-12">
       <div className="max-w-lg text-center mx-auto mb-16">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">About Us</h1>
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 font-playfair">
+          About Us
+        </h1>
         <p className="font-light">
           Welcome to Gentle Paws Cat Care, where feline health and well-being
           take center stage! Our passion for cats and dedication to providing
@@ -26,7 +28,7 @@ export default function About() {
           </p>
           <div className="flex flex-col text-center sm:text-start sm:flex-row items-center justify-around gap-4 p-4">
             <div>
-              <MdHealthAndSafety size={60} />
+              <MdHealthAndSafety size={60} className="text-myBlue-dark" />
             </div>
             <div>
               <h2 className="text-2xl font-semibold">
@@ -40,7 +42,7 @@ export default function About() {
           </div>
           <div className="flex flex-col text-center sm:text-start sm:flex-row items-center justify-around gap-4 p-4">
             <div>
-              <FaCity size={60} />
+              <FaCity size={60} className="text-myBlue-dark" />
             </div>
             <div>
               <h2 className="text-2xl font-semibold">
@@ -54,7 +56,7 @@ export default function About() {
           </div>
           <div className="flex flex-col text-center sm:text-start sm:flex-row items-center justify-around gap-4 p-4">
             <div>
-              <FaPeopleGroup size={60} />
+              <FaPeopleGroup size={60} className="text-myBlue-dark" />
             </div>
             <div>
               <h2 className="text-2xl font-semibold">

@@ -6,7 +6,7 @@ export default function Store() {
     <section className="w-full mb-12">
       <div className="grid grid-cols-5 max-w-6xl mx-auto">
         <div className="p-4 border-r">
-          <h1 className="text-center text-4xl font-bold mb-8">Store</h1>
+          <h1 className="text-center text-4xl font-bold mb-8 font-playfair">Store</h1>
           <ul>
             <li>
               <button className="w-full rounded-md hover:bg-slate-600 hover:text-white text-start px-2 py-1 font-semibold text-lg mb-2">

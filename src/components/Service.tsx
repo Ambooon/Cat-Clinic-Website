@@ -5,7 +5,7 @@ export default function Service() {
     <section className="max-w-6xl mx-auto p-12 ">
       <div className="grid grid-cols-2 items-center justify-between gap-4 mb-24">
         <div className="mb-16 max-w-md">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Service</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 font-playfair">Service</h1>
           <p className="font-light">
             Welcome to the Gentle Paws Cat Care Services Page – your gateway to
             comprehensive and specialized care tailored exclusively for our

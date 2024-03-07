@@ -81,7 +81,13 @@ function Accordion({ title, content, onToggle, isOpen }: AccordionPropType) {
     >
       <div className="flex justify-between items-center mb-2 ">
         <p className="font-semibold text-xl">{title}</p>
-        <button>{isOpen ? <FaCaretUp /> : <FaCaretDown />}</button>
+        <button>
+          {isOpen ? (
+            <FaCaretUp className="text-myWhite bg-myBlue-dark rounded-sm" />
+          ) : (
+            <FaCaretDown className="text-myWhite bg-myBlue-light rounded-sm" />
+          )}
+        </button>
       </div>
       {isOpen && <p className="text-slate-500">{content}</p>}
     </div>

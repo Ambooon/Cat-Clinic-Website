@@ -7,7 +7,7 @@ export default function Hero() {
             <h2 className="text-4xl font-semibold mb-2">
               Our Cat Care Service
             </h2>
-            <p className="font-thin">
+            <p className="font-;i">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
               velit suscipit, fuga ipsa minima dolorem?
             </p>
