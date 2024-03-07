@@ -1,15 +1,18 @@
 import { useState } from "react";
 import { FaSearch } from "react-icons/fa";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import { useSearchParams } from "react-router-dom";
 
 const categories = ["all", "food", "toys", "medicine", "other"];
 
 export default function Store() {
+  const [search, setSearch] = useState("");
   const [category, setCategory] = useState("all");
 
   function handleClick(category: string) {
     setCategory(category);
+  }
+
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+    setSearch(e.target.value);
   }
 
   return (
@@ -22,7 +25,7 @@ export default function Store() {
           <ul>
             {categories.map((item) => {
               return (
-                <li>
+                <li key={item}>
                   <button
                     className={`w-full rounded-md hover:bg-myBlue-dark hover:text-white hover:font-semibold text-start px-2 py-1 font-medium text-lg mb-2 capitalize ease-in-out duration-100 ${
                       category === item
@@ -39,31 +42,35 @@ export default function Store() {
           </ul>
         </div>
         <div className="col-span-4 p-4  overflow-y-scroll">
-          <div className="flex items-center justify-start p-4 pt-0">
-            <div>
-              <input
-                className="border px-2 py-1 rounded-md mr-4"
-                type="search"
-                placeholder="Search Here"
-              />
-              <button>
-                <FaSearch />
-              </button>
-            </div>
-          </div>
+          <input
+            className="border px-2 py-1 rounded-md mb-4 border-slate-400"
+            type="search"
+            placeholder="Search Here"
+            value={search}
+            onChange={handleChange}
+          />
+
           <div className="grid grid-cols-5 gap-8">
             {itemData.map((item) => {
-              if (item.category === category) {
+              if (
+                item.category === category &&
+                item.name.toLowerCase().includes(search)
+              ) {
                 return (
                   <ItemCard
+                    key={item.name}
                     imageUrl={item.imageUrl}
                     name={item.name}
                     price={item.price}
                   />
                 );
-              } else if (category === "all") {
+              } else if (
+                category === "all" &&
+                item.name.toLowerCase().includes(search)
+              ) {
                 return (
                   <ItemCard
+                    key={item.name}
                     imageUrl={item.imageUrl}
                     name={item.name}
                     price={item.price}
