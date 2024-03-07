@@ -3,9 +3,11 @@ import { FaArrowRight } from "react-icons/fa6";
 export default function Service() {
   return (
     <section className="max-w-6xl mx-auto p-12 ">
-      <div className="grid grid-cols-2 items-center justify-between gap-4 mb-24">
-        <div className="mb-16 max-w-md">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 font-playfair">Service</h1>
+      <div className="md:grid grid-cols-2 items-center gap-4 mb-24">
+        <div className="max-w-sm mx-auto text-center md:text-start">
+          <h1 className="text-4xl sm:text-6xl font-bold mb-4 font-playfair">
+            Service
+          </h1>
           <p className="font-light">
             Welcome to the Gentle Paws Cat Care Services Page – your gateway to
             comprehensive and specialized care tailored exclusively for our
@@ -13,7 +15,7 @@ export default function Service() {
           </p>
         </div>
         <img
-          className="rounded-2xl hidden sm:block"
+          className="rounded-2xl hidden md:block"
           src="https://plus.unsplash.com/premium_photo-1663011219208-418276022b35?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Cat with Vet"
         />
@@ -86,9 +88,9 @@ function Card(props: { imageUrl: string; title: string; content: string }) {
     <div className="shadow-lg hover:shadow-2xl rounded-2xl flex flex-col justify-between items-center p-8 text-center max-w-sm">
       <img className="h-40 mb-8" src={props.imageUrl} alt="Service Picture" />
       <h3 className="text-xl font-semibold mb-2">{props.title}</h3>
-      <p className="font-thin mb-4">{props.content}</p>
+      <p className="font-light mb-4">{props.content}</p>
       <div className="hover:cursor-pointer flex justify-between items-center gap-2 hover:font-medium">
-        <a>Read More</a>
+        <a className="hover:font-semibold">Read More</a>
         <FaArrowRight />
       </div>
     </div>

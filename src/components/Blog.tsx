@@ -1,6 +1,6 @@
 export default function Blog() {
   return (
-    <section className="w-full mb-12">
+    <section className="w-full mb-12 px-8">
       <div className="max-w-4xl mx-auto p-16">
         <h1 className="text-5xl sm:text-6xl font-semibold text-center font-playfair">
           Happy Cats 101: Tips and Tales for Healthy Kitties

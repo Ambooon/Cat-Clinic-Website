@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section className="max-w-6xl mx-auto p-12">
       <div className="max-w-lg text-center mx-auto mb-16">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 font-playfair">
+        <h1 className="text-4xl sm:text-6xl font-bold mb-4 font-playfair">
           About Us
         </h1>
         <p className="font-light">
