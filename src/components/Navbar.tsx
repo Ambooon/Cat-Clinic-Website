@@ -34,27 +34,33 @@ function Navbar() {
         <nav
           className={
             isNav
-              ? "block md:hidden fixed top-0 left-0 h-full w-[30%] bg-white border-r px-8 ease-in-out duration-500 shadow-lg"
-              : "fixed left-[-100%]"
+              ? "flex flex-col justify-between py-8 pt-20 md:hidden fixed top-0 left-0 h-full w-[30%] bg-white border-r px-8 ease-in-out duration-500 shadow-lg"
+              : "fixed left-[-100%] py-8 pt-20"
           }
         >
-          <ul className="grid gap-12 mt-20">
+          <ul className="grid gap-12" onClick={() => setIsNav(false)}>
             <li>
-              <button className="hover:font-semibold">Home</button>
+              <NavLink to={"/"}>Home</NavLink>
             </li>
             <li>
-              <button className="hover:font-semibold">About</button>
+              <NavLink to={"/about"}>About</NavLink>
             </li>
             <li>
-              <button className="hover:font-semibold">Service</button>
+              <NavLink to={"/service"}>Service</NavLink>
             </li>
             <li>
-              <button className="hover:font-semibold">Shop</button>
+              <NavLink to={"/store"}>Store</NavLink>
             </li>
             <li>
-              <button className="hover:font-semibold">Blog</button>
+              <NavLink to={"/blog"}>Blog</NavLink>
             </li>
           </ul>
+          <div className="flex items-center justify-between gap-2">
+            <button className="hover:font-semibold">Sign In</button>
+            <button className="py-2 px-4 rounded-full bg-myBlue-light hover:bg-myBlue-dark text-white">
+              Sign Up
+            </button>
+          </div>
         </nav>
         <div className="hidden md:flex items-center gap-6">
           <button className="hover:font-semibold">Sign In</button>

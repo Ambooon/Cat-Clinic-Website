@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { FaSearch } from "react-icons/fa";
 
 const categories = ["all", "food", "toys", "medicine", "other"];
 
@@ -50,7 +49,7 @@ export default function Store() {
             onChange={handleChange}
           />
 
-          <div className="grid grid-cols-5 gap-8">
+          <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
             {itemData.map((item) => {
               if (
                 item.category === category &&
