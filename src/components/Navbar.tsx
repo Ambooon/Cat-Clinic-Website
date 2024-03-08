@@ -92,7 +92,7 @@ function Navbar() {
               <NavLink to={"/blog"}>Blog</NavLink>
             </li>
           </ul>
-          <div className="flex items-center justify-between gap-2">
+          <div className="grid md:flex items-center justify-center gap-4">
             <button className="hover:font-semibold">Sign In</button>
             <button className="py-2 px-4 rounded-full bg-myBlue-light hover:bg-myBlue-dark text-white">
               Sign Up
