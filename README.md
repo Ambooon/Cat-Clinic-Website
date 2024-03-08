@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# Gentle Paws Cat Care
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A static frontend website for cat clinic. This website is created using react, react-router-dom, typescript, tailwindcss and vite. This website contains multiple pages that you can interact with.
+## Pages
+### Landing Page
+![image](https://github.com/Ambooon/Gentle-Paws-Cat-Care/assets/161290532/34bcf4fc-266c-4be1-94bc-b2b6c14fc0e8)
 
-Currently, two official plugins are available:
+### About Us Page
+![image](https://github.com/Ambooon/Gentle-Paws-Cat-Care/assets/161290532/8b977aa5-b9e6-452c-9f8e-d81b47b14a75)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Service Page
+![image](https://github.com/Ambooon/Gentle-Paws-Cat-Care/assets/161290532/7edaa5d8-cc64-4e2c-897f-090247fa5393)
 
-## Expanding the ESLint configuration
+### Store Page
+![image](https://github.com/Ambooon/Gentle-Paws-Cat-Care/assets/161290532/b8e8ac46-e39c-43f9-9617-0741476c6994)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Blog Page
+![image](https://github.com/Ambooon/Gentle-Paws-Cat-Care/assets/161290532/debb15a7-2e0a-4978-918c-e7cc4e812664)
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Purpose 
+This small project is to help me apply my knowledge in frontend development and create a working website that a business can use.
