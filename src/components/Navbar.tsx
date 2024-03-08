@@ -10,24 +10,61 @@ function Navbar() {
     <header className="w-full">
       <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-8 min-h-20">
         <div>
-          <img className="h-12" src={Logo} alt={Logo} />
+          <NavLink to={"/"}>
+            <img className="h-12" src={Logo} alt={Logo} />
+          </NavLink>
         </div>
         <nav className="hidden md:block">
-          <ul className="flex gap-8">
+          <ul className="grid grid-cols-5 text-center gap-8">
             <li>
-              <NavLink to={"/"}>Home</NavLink>
+              <NavLink
+                to={"/"}
+                className={({ isActive }) =>
+                  isActive ? "font-bold" : "hover:font-semibold"
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/about"}>About</NavLink>
+              <NavLink
+                to={"/about"}
+                className={({ isActive }) =>
+                  isActive ? "font-bold" : "hover:font-semibold"
+                }
+              >
+                About
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/service"}>Service</NavLink>
+              <NavLink
+                to={"/service"}
+                className={({ isActive }) =>
+                  isActive ? "font-bold" : "hover:font-semibold"
+                }
+              >
+                Service
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/store"}>Store</NavLink>
+              <NavLink
+                to={"/store"}
+                className={({ isActive }) =>
+                  isActive ? "font-bold" : "hover:font-semibold"
+                }
+              >
+                Store
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/blog"}>Blog</NavLink>
+              <NavLink
+                to={"/blog"}
+                className={({ isActive }) =>
+                  isActive ? "font-bold" : "hover:font-semibold"
+                }
+              >
+                Blog
+              </NavLink>
             </li>
           </ul>
         </nav>
