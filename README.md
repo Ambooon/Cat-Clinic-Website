@@ -17,5 +17,12 @@ A static frontend website for cat clinic. This website is created using react, r
 ### Blog Page
 ![image](https://github.com/Ambooon/Gentle-Paws-Cat-Care/assets/161290532/debb15a7-2e0a-4978-918c-e7cc4e812664)
 
+## How to run locally
+- Install NodeJS
+- git pull this repository
+- go into the directory
+- run the command "npm install"
+- last run the comamnd "npm run dev"
+  
 ## Purpose 
 This small project is to help me apply my knowledge in frontend development and create a working website that a business can use.
